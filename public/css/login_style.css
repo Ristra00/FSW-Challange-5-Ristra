@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.sign {
+  border-top: 20px solid #9C835F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.sign > .container {
+  width: 550px;
+  padding: 60px 0;
+}
+
+.sign > .container > p {
+  margin-top: 36px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+.sign > .container form {
+  padding-top: 40px;
+}
+
+.sign .panel {
+  padding: 60px 80px 40px;
+  background-color: #F6FAFF;
+}
+
+.sign h1 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.sign a {
+  display: block;
+  text-align: center;
+  color: #2B546A;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.sign a:hover {
+  color: #2b6d90;
+}
+
+.sign h2 {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sign form > p {
+  margin-bottom: 10px;
+}
+
+.sign input {
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.sign input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px #fff inset;
+}
+
+.sign input[name="username"] {
+  margin-bottom: 30px;
+}
+
+.sign input[name="email"] {
+  margin-bottom: 30px;
+}
+
+.sign input[type="submit"] {
+  margin-top: 50px;
+}
+
+.sign input[type="submit"] {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #9C835F;
+  height: 54px;
+  padding: 0 90px;
+  border-radius: 5px;
+  display: block;
+  margin: 80px auto 0;
+  opacity: 0.8;
+}
+
+.sign input[type="submit"]:hover {
+  cursor: pointer;
+  opacity: 1;
+}
