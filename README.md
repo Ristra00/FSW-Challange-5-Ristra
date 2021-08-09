@@ -3,7 +3,7 @@
 Clone Repo:
 
 ```bash
-git clone https://github.com/Ristra00/Ristra00-FSW-Challange-5-Ristra/
+git clone https://github.com/Ristra00/FSW-Challange-5-Ristra
 ```
 
 Change Directory:
